@@ -6,6 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DDA75C6E2FD6EABD00D93541 /* CrewBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75C6D2FD6EABD00D93541 /* CrewBookApp.swift */; };
+		DDA75CA32FD6EF5100D93541 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75C9F2FD6ED5000D93541 /* HomeView.swift */; };
+		DDA75CA42FD6EF5700D93541 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CA02FD6ED6200D93541 /* ScheduleView.swift */; };
+		DDA75CA52FD6EF5C00D93541 /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CA12FD6ED7800D93541 /* MemoryView.swift */; };
+		DDA75CA62FD6EF6000D93541 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CA22FD6ED8400D93541 /* StatsView.swift */; };
+		DDA75CA72FD6F05700D93541 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75C9C2FD6ECA400D93541 /* Group.swift */; };
+		DDA75CA82FD6F06000D93541 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75C9E2FD6ECBA00D93541 /* Memory.swift */; };
+		DDA75CA92FD6F06500D93541 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75C9D2FD6ECB100D93541 /* Schedule.swift */; };
+		DDA75CAC2FD6F14200D93541 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CAB2FD6F13A00D93541 /* AddGroupView.swift */; };
+		DDA75CAF2FD6F1AF00D93541 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CAE2FD6F1A400D93541 /* Color+Hex.swift */; };
+		DDA75CB12FD6F23900D93541 /* ScheduleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CB02FD6F22700D93541 /* ScheduleRowView.swift */; };
+		DDA75CB32FD6F25200D93541 /* AddScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CB22FD6F24900D93541 /* AddScheduleView.swift */; };
+		DDA75CB72FD6F37D00D93541 /* AddMemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CB62FD6F37300D93541 /* AddMemoryView.swift */; };
+		DDA75CB92FD6F57D00D93541 /* GroupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CB82FD6F57000D93541 /* GroupCardView.swift */; };
+		DDA75CBB2FD6F61900D93541 /* MemoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CBA2FD6F61100D93541 /* MemoryCardView.swift */; };
+		DDA75CBD2FD6F7E900D93541 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CBC2FD6F7DF00D93541 /* GroupDetailView.swift */; };
+		DDA75CBF2FD6F93200D93541 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CBE2FD6F92A00D93541 /* ToastView.swift */; };
+		DDA75CC12FD6F94C00D93541 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CC02FD6F94400D93541 /* HapticManager.swift */; };
+		DDA75CC32FD7FB5700D93541 /* EditScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CC22FD7FB4B00D93541 /* EditScheduleView.swift */; };
+		DDA75CC52FD7FB8C00D93541 /* EditMemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CC42FD7FB8500D93541 /* EditMemoryView.swift */; };
+		DDA75CC72FD7FD8B00D93541 /* EditGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CC62FD7FD8300D93541 /* EditGroupView.swift */; };
+		DDA75CC92FD801AF00D93541 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CC82FD801A500D93541 /* SampleData.swift */; };
+		DDA75CCB2FD8028B00D93541 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA75CCA2FD8028200D93541 /* FilterChip.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DDA75C782FD6EABE00D93541 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,8 +51,31 @@
 
 /* Begin PBXFileReference section */
 		DDA75C6A2FD6EABD00D93541 /* CrewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA75C6D2FD6EABD00D93541 /* CrewBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewBookApp.swift; sourceTree = "<group>"; };
 		DDA75C772FD6EABE00D93541 /* CrewBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrewBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA75C812FD6EABE00D93541 /* CrewBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrewBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA75C9C2FD6ECA400D93541 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		DDA75C9D2FD6ECB100D93541 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		DDA75C9E2FD6ECBA00D93541 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		DDA75C9F2FD6ED5000D93541 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DDA75CA02FD6ED6200D93541 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		DDA75CA12FD6ED7800D93541 /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		DDA75CA22FD6ED8400D93541 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		DDA75CAB2FD6F13A00D93541 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
+		DDA75CAE2FD6F1A400D93541 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		DDA75CB02FD6F22700D93541 /* ScheduleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRowView.swift; sourceTree = "<group>"; };
+		DDA75CB22FD6F24900D93541 /* AddScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleView.swift; sourceTree = "<group>"; };
+		DDA75CB62FD6F37300D93541 /* AddMemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoryView.swift; sourceTree = "<group>"; };
+		DDA75CB82FD6F57000D93541 /* GroupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCardView.swift; sourceTree = "<group>"; };
+		DDA75CBA2FD6F61100D93541 /* MemoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardView.swift; sourceTree = "<group>"; };
+		DDA75CBC2FD6F7DF00D93541 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		DDA75CBE2FD6F92A00D93541 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		DDA75CC02FD6F94400D93541 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		DDA75CC22FD7FB4B00D93541 /* EditScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScheduleView.swift; sourceTree = "<group>"; };
+		DDA75CC42FD7FB8500D93541 /* EditMemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoryView.swift; sourceTree = "<group>"; };
+		DDA75CC62FD7FD8300D93541 /* EditGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupView.swift; sourceTree = "<group>"; };
+		DDA75CC82FD801A500D93541 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		DDA75CCA2FD8028200D93541 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +124,10 @@
 		DDA75C612FD6EABD00D93541 = {
 			isa = PBXGroup;
 			children = (
+				DDA75C942FD6EB7800D93541 /* App */,
+				DDA75C952FD6EBA100D93541 /* Models */,
+				DDA75C962FD6EBA900D93541 /* Views */,
+				DDA75C9B2FD6EBF000D93541 /* Components */,
 				DDA75C6C2FD6EABD00D93541 /* CrewBook */,
 				DDA75C7A2FD6EABE00D93541 /* CrewBookTests */,
 				DDA75C842FD6EABE00D93541 /* CrewBookUITests */,
@@ -90,6 +143,89 @@
 				DDA75C812FD6EABE00D93541 /* CrewBookUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA75C942FD6EB7800D93541 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75CC82FD801A500D93541 /* SampleData.swift */,
+				DDA75C6D2FD6EABD00D93541 /* CrewBookApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DDA75C952FD6EBA100D93541 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75C9C2FD6ECA400D93541 /* Group.swift */,
+				DDA75C9D2FD6ECB100D93541 /* Schedule.swift */,
+				DDA75C9E2FD6ECBA00D93541 /* Memory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDA75C962FD6EBA900D93541 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75C9A2FD6EBE100D93541 /* Stats */,
+				DDA75C992FD6EBD100D93541 /* Memory */,
+				DDA75C982FD6EBC600D93541 /* Schedule */,
+				DDA75C972FD6EBBC00D93541 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDA75C972FD6EBBC00D93541 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75CC62FD7FD8300D93541 /* EditGroupView.swift */,
+				DDA75CBC2FD6F7DF00D93541 /* GroupDetailView.swift */,
+				DDA75CAB2FD6F13A00D93541 /* AddGroupView.swift */,
+				DDA75C9F2FD6ED5000D93541 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DDA75C982FD6EBC600D93541 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75CC22FD7FB4B00D93541 /* EditScheduleView.swift */,
+				DDA75CB22FD6F24900D93541 /* AddScheduleView.swift */,
+				DDA75CA02FD6ED6200D93541 /* ScheduleView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		DDA75C992FD6EBD100D93541 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75CC42FD7FB8500D93541 /* EditMemoryView.swift */,
+				DDA75CB62FD6F37300D93541 /* AddMemoryView.swift */,
+				DDA75CA12FD6ED7800D93541 /* MemoryView.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		DDA75C9A2FD6EBE100D93541 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75CA22FD6ED8400D93541 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		DDA75C9B2FD6EBF000D93541 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DDA75CCA2FD8028200D93541 /* FilterChip.swift */,
+				DDA75CC02FD6F94400D93541 /* HapticManager.swift */,
+				DDA75CBE2FD6F92A00D93541 /* ToastView.swift */,
+				DDA75CBA2FD6F61100D93541 /* MemoryCardView.swift */,
+				DDA75CB82FD6F57000D93541 /* GroupCardView.swift */,
+				DDA75CB02FD6F22700D93541 /* ScheduleRowView.swift */,
+				DDA75CAE2FD6F1A400D93541 /* Color+Hex.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +372,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA75CC92FD801AF00D93541 /* SampleData.swift in Sources */,
+				DDA75CA82FD6F06000D93541 /* Memory.swift in Sources */,
+				DDA75CB32FD6F25200D93541 /* AddScheduleView.swift in Sources */,
+				DDA75CC52FD7FB8C00D93541 /* EditMemoryView.swift in Sources */,
+				DDA75CBD2FD6F7E900D93541 /* GroupDetailView.swift in Sources */,
+				DDA75CC72FD7FD8B00D93541 /* EditGroupView.swift in Sources */,
+				DDA75CA72FD6F05700D93541 /* Group.swift in Sources */,
+				DDA75CA32FD6EF5100D93541 /* HomeView.swift in Sources */,
+				DDA75CBB2FD6F61900D93541 /* MemoryCardView.swift in Sources */,
+				DDA75CC12FD6F94C00D93541 /* HapticManager.swift in Sources */,
+				DDA75CC32FD7FB5700D93541 /* EditScheduleView.swift in Sources */,
+				DDA75CA92FD6F06500D93541 /* Schedule.swift in Sources */,
+				DDA75CB92FD6F57D00D93541 /* GroupCardView.swift in Sources */,
+				DDA75CCB2FD8028B00D93541 /* FilterChip.swift in Sources */,
+				DDA75CAF2FD6F1AF00D93541 /* Color+Hex.swift in Sources */,
+				DDA75CA42FD6EF5700D93541 /* ScheduleView.swift in Sources */,
+				DDA75CA62FD6EF6000D93541 /* StatsView.swift in Sources */,
+				DDA75CAC2FD6F14200D93541 /* AddGroupView.swift in Sources */,
+				DDA75CB72FD6F37D00D93541 /* AddMemoryView.swift in Sources */,
+				DDA75CA52FD6EF5C00D93541 /* MemoryView.swift in Sources */,
+				DDA75CB12FD6F23900D93541 /* ScheduleRowView.swift in Sources */,
+				DDA75CBF2FD6F93200D93541 /* ToastView.swift in Sources */,
+				DDA75C6E2FD6EABD00D93541 /* CrewBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
