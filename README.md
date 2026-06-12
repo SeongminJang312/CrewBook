@@ -11,9 +11,7 @@
 
 ## 📱 소개 영상
 
-[![CrewBook 소개 영상](https://img.shields.io/badge/YouTube-소개영상-red?logo=youtube)](https://youtube.com)
-
-> 영상 링크는 업로드 후 위 배지를 수정해주세요.
+https://youtube.com/shorts/DI4xa3pqz44?feature=share
 
 <br/>
 
